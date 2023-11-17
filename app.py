@@ -34,7 +34,7 @@ demo = gr.Interface(fn=instruct_and_predict,
     outputs=[label_output1,label_output2,Image_output],
     live=False,
     title="甲骨文学习小游戏",
-    description="请在上方文本框输入你希望绘制的甲骨文（例如：“人”或“大”），然后在画板上进行绘制，查看结果。",
+    description="请在下方文本框输入你希望绘制的甲骨文（“人”或“大”），然后在画板上进行绘制，查看结果。",
     theme="default"
 )
 
